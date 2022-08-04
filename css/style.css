@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.full-page {
+  display: flex;
+  width: 100%;
+  height: 745px;
+  background-color: red;
+  overflow: hidden;
+}
+
+.page-left {
+  width: 30%;
+  height: 740px;
+  background-color: blue;
+  padding: 5px;
+}
+
+.page-right {
+  width: 70%;
+  height: 740px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+}
+
+.left-item {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.right-footer {
+  max-height: 100px;
+}
+
+.right-content {
+  display: flex;
+  height: 100%;
+  background-color: red;
+  flex-direction: column;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.right-content-item-recive {
+  align-self: flex-start;
+  background-color: orange;
+  width: fit-content;
+}
+
+.right-content-item-send {
+  padding: 20px;
+  width: fit-content;
+  background-color: #8978bc;
+  align-self: flex-end;
+  border-radius: 20px 20px 0 20px;
+  margin: 10px;
+}
+
+.left-item-div {
+  background-color: blueviolet;
+  width: 100%;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.left-item-div-left {
+  height: 100%;
+  background-color: green;
+  width: 70px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.left-profile-img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+}
+
+.left-item-div-center {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-send{
+    background-color: grey;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+
+
+.message-input{
+    font-size: 16px;
+    width: 1000px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
